@@ -1,0 +1,72 @@
+================================================================================
+FAKE RESUME DETECTOR - COMPLETE SETUP CHECKLIST
+================================================================================
+
+PRE-REQUISITES CHECK:
+  [ ] Java installed (java --version)
+  [ ] Python installed (python --version)
+  [ ] Python pip working (pip --version)
+
+STEP 1: PYTHON DEPENDENCIES
+  [ ] Navigated to python/ directory
+  [ ] Ran: pip install -r requirements.txt
+  [ ] Installation successful (no errors)
+
+STEP 2: TRAIN ML MODELS
+  [ ] In python/ directory
+  [ ] Ran: python train_model.py
+  [ ] Models generated:
+      [ ] python/models/vectorizer.pkl (exists)
+      [ ] python/models/lr_classifier.pkl (exists)
+      [ ] python/models/isolation_forest.pkl (exists)
+      [ ] python/models/metadata.json (exists)
+
+STEP 3: COMPILE JAVA CODE
+  [ ] Created bin/ directory in project root
+  [ ] Ran compilation command successfully
+  [ ] No compilation errors
+  [ ] bin/ directory contains .class files
+
+STEP 4: RUN APPLICATION
+  [ ] Ran: java -cp bin Main
+  [ ] Application started successfully
+  [ ] Welcome menu displayed
+
+STEP 5: TEST APPLICATION
+  [ ] Selected option 6 (Test with Sample Data)
+  [ ] Real resume analyzed
+  [ ] Fake resume analyzed
+  [ ] Results displayed correctly
+
+PROJECT READY:
+  [ ] All checks completed
+  [ ] Application working
+  [ ] Ready for analysis
+
+================================================================================
+TROUBLESHOOTING CHECKLIST:
+
+If Java Won't Compile:
+  [ ] Check Java version (11+): java -version
+  [ ] Check all src files exist
+  [ ] Try compiling individual files first
+  [ ] Check file permissions
+
+If Python Models Won't Load:
+  [ ] Verify pip installation successful
+  [ ] Check models directory exists
+  [ ] Re-run: python train_model.py
+  [ ] Check Python version (3.8+)
+
+If Application Won't Run:
+  [ ] Verify bin/ directory exists with .class files
+  [ ] Check current directory is project root
+  [ ] Try: java -cp bin:. Main (with current dir)
+  [ ] Check Java installation
+
+If Models Not Found During Runtime:
+  [ ] Ensure python/ directory in project root
+  [ ] Verify all 4 model files exist
+  [ ] Re-run training script
+
+================================================================================

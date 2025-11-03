@@ -1,0 +1,16 @@
+
+============================================================
+RESUME VALIDATION REPORT
+============================================================
+File: resume-sample.pdf
+Date: Sun Nov 02 19:47:40 IST 2025
+Validation Type: HYBRID
+------------------------------------------------------------
+STATUS: GENUINE
+Confidence Score: 34.00%
+Rule-Based Score: 10.00%
+ML-Based Score: 50.00%
+------------------------------------------------------------
+RED FLAGS DETECTED:
+  • Unusually high number of degrees: 39
+============================================================

@@ -1,0 +1,32 @@
+
+============================================================
+RESUME VALIDATION REPORT
+============================================================
+File: test_fake_resume.txt
+Date: Sun Nov 02 19:52:04 IST 2025
+Validation Type: HYBRID
+------------------------------------------------------------
+STATUS: FAKE
+Confidence Score: 70.00%
+Rule-Based Score: 100.00%
+ML-Based Score: 50.00%
+------------------------------------------------------------
+RED FLAGS DETECTED:
+  • Suspicious keyword detected: 'guru'
+  • Suspicious keyword detected: 'time travel'
+  • Suspicious keyword detected: 'telekinesis'
+  • Suspicious keyword detected: 'unicorn startup'
+  • Suspicious keyword detected: '10x developer'
+  • Suspicious keyword detected: 'mind reading'
+  • Suspicious keyword detected: 'expert in everything'
+  • Unrealistic years of experience: 100 (more than 70 years)
+  • Claiming unrealistic work duration
+SUSPICIOUS KEYWORDS:
+  • guru
+  • time travel
+  • telekinesis
+  • unicorn startup
+  • 10x developer
+  • mind reading
+  • expert in everything
+============================================================

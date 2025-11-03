@@ -1,0 +1,8 @@
+{
+  "vectorizer_features": 100,
+  "real_samples": 5,
+  "fake_samples": 5,
+  "lr_accuracy": 1.0,
+  "iso_accuracy": 0.6,
+  "training_date": "2025-11-02"
+}
